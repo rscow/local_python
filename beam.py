@@ -15,3 +15,5 @@ else:
 print(f"Maximum moment: {M_max:.1f} kip-ft")
 print(f"Maximum deflection: {delta:.2f} in")
 print(f"L/360 limit: {L * 12 / 360:.2f} in")
+
+print(f"Deflection ratio: {delta / (L * 12):.4f}")
